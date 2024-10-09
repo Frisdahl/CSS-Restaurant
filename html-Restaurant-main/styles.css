@@ -1,0 +1,78 @@
+:root {
+  --mainColor: #eb5147;
+  --secondaryColor: #27354a;
+  --yellowColor: #cec69a;
+
+  --fontFamily: "Fira Sans", sans-serif;
+
+  --h1FontSize: 2em;
+
+  --marginSmall: 15px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: var(--fontFamily);
+}
+
+h1 {
+  font-size: var(--h1FontSize);
+  font-weight: 500;
+}
+
+.main-header {
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+}
+
+.main-heading-ctn {
+  padding: 15px;
+  background-color: #eb5147;
+  color: #fff;
+}
+
+.main-nav {
+  background-color: var(--secondaryColor);
+  padding: 15px;
+
+  a {
+    font-size: 1.25em;
+    color: #fff;
+    width: 100%;
+    text-decoration: none;
+  }
+
+  li {
+    list-style-type: none;
+    border-bottom: 2px solid #fff;
+  }
+  .active-link {
+    color: var(--yellowColor);
+    font-size: 1.5em;
+    font-weight: 800;
+    text-decoration: none;
+  }
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.google-maps-img {
+  margin-top: 1000px;
+  width: 100vw;
+}
+
+main {
+  margin-top: 500px;
+  margin-left: 15px; /* Left margin */
+  margin-right: 15px; /* Right margin */
+}
